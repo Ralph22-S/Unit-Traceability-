@@ -1,1 +1,53 @@
-development process docu 
+# Unit Traceability System - MkFF LASERTEKNIQUE
+
+The **Unit Traceability System** is a web-based platform designed to monitor and manage the status of various manufacturing or assembly stations in real-time. This tool is used by Admins and Operators to ensure effective workflow visibility and unit tracking across multiple stations.
+
+---
+
+## Login Roles
+
+- **Admin**  
+  Accesses an overview of all stations. Can monitor status (Active/Offline) of each station.
+
+- **Operator**  
+  Intended for operational level access (future development or limited view).
+
+---
+
+## Features
+
+- Secure login screen with role-based access
+- Dashboard for Admin showing:
+  - **15 stations**, each with a status indicator
+  - Status can be: `Active` (green) or `Offline` (gray)
+- Responsive and user-friendly UI
+- Logout functionality for session control
+
+---
+
+## Technologies Used
+
+- **HTML5**  
+- **CSS3** (with custom styling and responsive design)
+- **JavaScript** (for UI logic and navigation)
+- Currently runs on **Vercel (localhost)** for development/testing
+
+---
+
+## Pages
+
+- `index.html` – Login page with role selection dropdown
+- `admin-dashboard.html` – Admin view with all station tiles and their statuses
+
+---
+
+
+## Future Improvements
+
+- Backend integration (PHP/Node.js with database support)
+- Operator-specific functionality
+- Real-time status updates via WebSocket or AJAX
+- Authentication and session management
+
+---
+
